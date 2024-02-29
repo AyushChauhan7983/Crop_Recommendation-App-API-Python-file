@@ -2,4 +2,4 @@ flask
 numpy
 gunicorn
 pickleshare
-sklearn
+scikit-learn
