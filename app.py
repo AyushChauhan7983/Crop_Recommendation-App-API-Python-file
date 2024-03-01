@@ -3,7 +3,7 @@ import numpy as np
 
 from flask import Flask,request,jsonify
 
-model = pickle.load(open('rf.pkl','rb'))
+model = pickle.load(open('decisiontree.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')
