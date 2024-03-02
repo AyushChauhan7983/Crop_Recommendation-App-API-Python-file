@@ -3,7 +3,7 @@ import numpy as np
 
 from flask import Flask,request,jsonify
 
-model = pickle.load(open('svm.pkl','rb'))
+model = pickle.load(open('rf.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')
